@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Salesforce Suite" parallel="tests" thread-count="1">
+
+	<test name="Google1" parallel="instances" thread-count="1">
+		<classes>
+			<class name="com.salesforce.home.tests.CreateNewAccount" />
+		</classes>
+	</test>
+
+</suite>
